@@ -1,0 +1,101 @@
+@media (max-width: 700px) {
+    .nav-panel .nav-links {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 100;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(104, 104, 104);
+      transition: .5s;
+      display: none;
+    }
+  
+    .nav-panel .open-menu {
+      display: block;
+      margin-right: 35px;
+    }
+  
+    .nav-panel .open-menu:hover {
+      color: rgb(103, 101, 101);
+    }
+  
+    .nav-panel .nav-links .close-menu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    .nav-panel .nav-links .close-menu:hover {
+      color: rgb(103, 101, 101);
+    }
+  
+    .nav-panel .nav-links li .link, .logout-btn{
+      background-color: rgb(246, 246, 246);
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      margin-bottom: 50px;
+    }
+  
+    .nav-panel .nav-links li .link:hover {
+      font-size: 2.5rem;
+    }
+  
+    .nav-panel .nav-links li .logout-btn:hover {
+      font-size: 2.5rem;
+    }
+  
+    .container-signup {
+      width: 350px;
+      height: 530px;
+    }
+  
+    .container-login {
+      width: 350px;
+      height: 350px;
+    }
+  
+    .form h1 {
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+  
+    .form input {
+      width: 250px;
+      font-size: 0.8rem;
+    }
+  
+    .form .submit-btn {
+      width: 250px;
+      font-size: 1rem;
+    }
+  
+    .form .account-exist, .no-account {
+      margin-top: 8px;
+      font-size: 12px;
+    }
+  
+    .error {
+      font-size: 10px;
+    }
+  
+    .success-message {
+      font-size: 10px;
+      padding: 3px 8px;
+    }
+  
+    .error-message {
+      font-size: 10px;
+      padding: 3px 8px;
+    }
+  
+    .greetings {
+      font-size: 1.3rem;
+    }
+  
+  
+  }

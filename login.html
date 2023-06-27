@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOG IN</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="logres.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/107ee2fbd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav-panel">
+    <div class="logo"><a href="index.html">ChoTin</a></div>
+    <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
+    <ul class="nav-links">
+      <li class="home">
+        <a href="index.html" class="link">Home</a>
+      </li>
+      <li class="login">
+        <a href="login.html" class="link">Login</a>
+      </li>
+      <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+    </ul>
+  </nav>
+
+  <div class="container-login">
+    <form id="login-form" class="form">
+
+      <h1 class="login-heading">Login</h1>
+      <span></span>
+
+      <div class="input-field">
+        <input type="text" name="email" id="email" placeholder="Email Address">
+        <small id="emailError"></small>
+      </div>
+
+      <div class="input-field">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <small id="passwordError"></small>
+      </div>
+
+      <div class="input-field">
+        <button type="submit" class="submit-btn">Log In</button>
+        <p class="no-account">Do not have an account?<a href="signup.html" class="register">Sign Up</a></p>
+      </div>
+
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

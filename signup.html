@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAVASCRIPT FORM VALIDATION</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="logres.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/107ee2fbd9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="nav-panel">
+    <div class="web-name">Website Logo</div>
+    <div class="open-menu"><i class="fa-solid fa-bars"></i></div>
+    <ul class="nav-links">
+      <li class="home">
+        <a href="index.html" class="link">Home</a>
+      </li>
+      <li class="login">
+        <a href="login.html" class="link">Login</a>
+      </li>
+      <div class="close-menu"><i class="fa-solid fa-xmark"></i></div>
+    </ul>
+  </nav>
+
+  <div class="container-signup">
+    <form id="signup-form" class="form">
+
+      <h1 class="signup-heading">Sign Up</h1>
+      <span></span>
+
+      <div class="input-field">
+        <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+        <small id="fnameError"></small>
+      </div>
+
+      <div class="input-field">
+        <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+        <small id="lnameError"></small>
+      </div>
+
+      <div class="input-field">
+        <input type="text" name="email" id="email" placeholder="Email Address">
+        <small id="emailError"></small>
+      </div>
+
+      <div class="input-field">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <small id="passwordError"></small>
+      </div>
+
+      <div class="button-field">
+        <button type="submit" class="submit-btn">Sign Up</button>
+        <p class="account-exist">Already have an account?<a href="login.html" class="login">Log In</a></p>
+      </div>
+      
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
